@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+		<meta name="format-detection" content="telephone=no">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="root" class="container">
+			<div class="m-artical-action">
+				<div class="artical-action-mid" id="action_mid"></div>
+			</div>
+			<div id="top-nav" class="top-nav" style="display:none">
+				<div class="icon-back"></div>
+				<div class="nav-title">返回书架</div>
+			</div>
+		    <div id="fiction_chapter_title" style="display:none">
+		    	<ul>
+		    		<li>第004章：绝处逢生</li>
+		    		<li>第2节：传闻有误</li>
+		    		<li>第3节：打得就是你</li>
+		    		<li>第4节：风华公子</li>
+		    	</ul>
+		    </div>
+		    <div id="fiction_container" class="m-read-content">
+		    	
+		    </div>
+		    <div class="m-button-bar">
+		    	<ul class="u-tab">
+		    		<li id="prev_button">上一章</li>
+		    		<li id="next_button">下一章</li>
+		    	</ul>
+		    </div>
+		    <div class="nav-pannel-bg nav-pannel-toggle" style="display:none"></div>
+		    <div class="nav-pannel nav-pannel-toggle" id="font-container" style="display:none">
+				<div class="child-mod">
+					<span>字号</span>
+					<button id="large-font" class="font-size-button">大</button>
+					<button id="small-font" class="font-size-button">小</button>
+				</div>
+				<div class="child-mod">
+					<span>背景</span>
+					<div class="bg-container bg-container1">
+						<div class="bg-container-current" style="display:none"></div>
+					</div>
+					<div class="bg-container bg-container2">
+						<div class="bg-container-current" style="display:none"></div>
+					</div>
+					<div class="bg-container bg-container3">
+						<div class="bg-container-current" style="display:none"></div>
+					</div>
+					<div class="bg-container bg-container4">
+						<div class="bg-container-current" style="display:none"></div>
+					</div>
+					<div class="bg-container bg-container5">
+						<div class="bg-container-current" style="display:none"></div>
+					</div>
+					<div class="bg-container bg-container6">
+						<div class="bg-container-current" style="display:none"></div>
+					</div>
+				</div>
+			</div>
+		    <div id="bottom-nav" class="bottom-nav" style="display:none">
+		    	<div id="cata-wrap" class="bottom-wrap">
+		    		<div id="icon-cata" class="bottom-icon"></div>
+		    		<div id="title-cata" class="bottom-font">目录</div>	
+		    	</div>
+				<div id="font-wrap" class="bottom-wrap">
+					<div id="icon-font" class="bottom-icon icon-font"></div>
+					<div id="title-font" class="bottom-font">字体</div>	
+				</div>
+				<div id="mode-wrap" class="bottom-wrap">
+					<div class="icon-mode bottom-icon"></div>
+					<div id="title-mode" class="bottom-font">夜间</div>
+					<div id="title-mode2" class="bottom-font" style="display:none">白天</div>
+				</div>
+			</div>
+			
+		</div>
+		<script src="lib/zepto.min.js"></script>
+		<script>
+			window.jQuery = $;
+		</script>
+		<script src="js/jquery.base64.js"></script>
+		<script src="js/jquery.jsonp.js"></script>
+		<script src="js/js.js"></script>
+	</body>
+</html>
